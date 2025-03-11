@@ -1,0 +1,273 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(246, 233, 207);
+}
+
+h1 {
+    margin-top: 10px;
+    background-color: bisque ;
+    width: 390px;
+    padding: 25px;
+    border: 5px solid rgb(151, 151, 114);
+    border-radius: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    font-size: large;
+    font-weight: bold;
+    background-color: bisque ;
+    width: 300px;
+    padding-left: 2px;
+    border: 5px solid rgb(204, 167, 98);
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.Bänkpress {
+    font-weight: bold;
+    background-color: bisque ;
+    width: 150px;
+    padding: 25px;
+    border: 5px solid rgb(204, 167, 98);
+    border-radius: 30px;
+    margin-left: 40px;
+}
+
+img {
+    border: 7px solid rgb(158, 89, 89);
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 1px;
+    width: 600px;
+}
+
+.Ta-reda-på-mer-om-Bänkpress {
+    position: absolute;
+    top: 470px;
+    right: 1396px;
+    background-color: rgb(250, 248, 248);
+    color: #eeff41;
+    border-radius: 30px;
+    border: 7px solid rgb(158, 89, 89);
+    padding-inline: 130px;
+    padding-block: 285px;
+    text-align: center;
+    font-size: 25px;
+    margin: 4px 2px;
+    opacity: 0;
+    transition: 1s;
+}
+  
+.Ta-reda-på-mer-om-Bänkpress:hover {opacity: 1}
+
+  .Citaten-bänkpress {
+    position: absolute;
+    top: 450px;
+    right: 770px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: bisque ;
+    width: 560px;
+    padding: 20px;
+    border: 5px solid rgb(204, 167, 98);
+    border-radius: 30px;
+}
+
+.Kortfattad-fakta-bänkpress {
+    position: absolute;
+    top: 535px;
+    right: 770px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: bisque ;
+    width: 560px;
+    padding: 20px;
+    border: 5px solid rgb(204, 167, 98);
+    border-radius: 30px;
+}
+
+.Meddelande-till-användaren-bänkpress {
+    position: absolute;
+    top: 770px;
+    right: 770px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    background-color: bisque ;
+    width: 330px;
+    padding: 20px;
+    border: 5px solid rgb(204, 167, 98);
+    border-radius: 30px; 
+    padding-inline: 135px;
+
+    /*Här ville jag ha regnbågefärgad text, dessutom hittade en lösning på nätet.*/
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Bicep-Curl {
+    font-size: x-large;
+    font-weight: bold;
+    background-color: bisque ;
+    width: 150px;
+    padding: 25px;
+    border: 5px solid rgb(204, 167, 98);
+    border-radius: 30px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.Ta-reda-på-mer-om-Bicep-Curl {
+    position: absolute;
+    top: 1255px;
+    right: 1396px;
+    background-color: rgb(250, 248, 248);
+    color: #eeff41;
+    border-radius: 30px;
+    border: 7px solid rgb(158, 89, 89);
+    padding-inline: 130px;
+    padding-block: 285px;
+    text-align: center;
+    font-size: 25px;
+    margin: 4px 2px;
+    opacity: 0;
+    transition: 1s;
+}
+  
+.Ta-reda-på-mer-om-Bicep-Curl:hover {opacity: 1}
+
+.Citaten-bicep-curl {
+    position: absolute;
+    top: 1235px;
+    right: 770px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: bisque ;
+    width: 560px;
+    padding: 20px;
+    border: 5px solid rgb(204, 167, 98);
+    border-radius: 30px;   
+}
+
+.Kortfattad-fakta-bicep-curl {
+    position: absolute;
+    top: 1320px;
+    right: 770px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: bisque ;
+    width: 560px;
+    padding: 20px;
+    border: 5px solid rgb(204, 167, 98);
+    border-radius: 30px;
+}
+
+.Meddelande-till-användaren-bicep-curl {
+    position: absolute;
+    top: 1510px;
+    right: 770px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    background-color: bisque ;
+    width: 330px;
+    padding: 20px;
+    border: 5px solid rgb(204, 167, 98);
+    border-radius: 30px; 
+    padding-inline: 135px;
+
+    /*Här ville jag ha regnbågefärgad text, dessutom hittade en lösning på nätet.*/
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Pull-Up {
+    font-size: x-large;
+    font-weight: bold;
+    background-color: bisque ;
+    width: 150px;
+    padding: 25px;
+    border: 5px solid rgb(204, 167, 98);
+    border-radius: 30px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.Pull-Up-allt img {
+    height: 510px;
+}
+
+.Ta-reda-på-mer-om-Pull-Up {
+    position: absolute;
+    top: 2038px;
+    right: 1396px;
+    background-color: rgb(250, 248, 248);
+    color: #eeff41;
+    border-radius: 30px;
+    border: 7px solid rgb(158, 89, 89);
+    padding-inline: 150px;
+    padding-block: 240px;
+    text-align: center;
+    font-size: 25px;
+    margin: 4px 2px;
+    opacity: 0;
+    transition: 1s;
+}
+  
+.Ta-reda-på-mer-om-Pull-Up:hover {opacity: 1}
+
+.Citaten-Pull-Up {
+    position: absolute;
+    top: 2022px;
+    right: 770px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: bisque ;
+    width: 560px;
+    padding: 20px;
+    border: 5px solid rgb(204, 167, 98);
+    border-radius: 30px;   
+}
+
+.Kortfattad-fakta-Pull-Up {
+    position: absolute;
+    top: 2130px;
+    right: 770px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: bisque ;
+    width: 560px;
+    padding: 20px;
+    border: 5px solid rgb(204, 167, 98);
+    border-radius: 30px;
+}
+
+.Meddelande-till-användaren-Pull-Up {
+    position: absolute;
+    top: 2345px;
+    right: 770px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    background-color: bisque ;
+    width: 330px;
+    padding: 20px;
+    border: 5px solid rgb(204, 167, 98);
+    border-radius: 30px; 
+    padding-inline: 135px;
+
+    /*Här ville jag ha regnbågefärgad text, dessutom hittade en lösning på nätet.*/
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

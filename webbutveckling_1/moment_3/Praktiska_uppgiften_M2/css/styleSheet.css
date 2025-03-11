@@ -1,0 +1,267 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    margin: 0;
+}
+/*Header:n och rubriken:*/
+header {
+    background-image: url('../img/bgHeader.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    color: white;
+    padding: 30px;
+    padding-top: 0;
+}
+
+header img {
+    height: 120px;
+    width: 120px;
+    margin-top: 15px; 
+    margin-right: 25px;
+    float: left;
+}
+
+header h1 {
+    font-size: 3rem;
+    float: left;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+
+header p {
+    font-size: 2rem;
+    font-weight: 700;
+    clear: both;
+    position: relative;
+    top: -35px; 
+    margin-left: 165px; 
+    margin-bottom: 0;
+}
+/*navigationsmenyn:*/
+#mainNav {
+    background-color: black;
+}
+
+#mainNav ul{
+    margin: 0;
+    margin-left: 30px;
+    padding: 0 ;
+    text-align: left;
+}
+
+#mainNav ul li{
+    display: inline-block; 
+}
+
+#mainNav ul a{
+    font-size: 1.5rem;
+    text-decoration: none; 
+    color: white; 
+    padding: 10px 10px;
+}
+
+#mainNav .active{
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: gray;
+    color: rgb(160, 4, 4);
+}
+
+#mainNav a:hover {
+    background-color: rgba(128, 128, 128, 0.549);
+    color: white;
+    border-bottom: 3px solid rgb(161, 2, 2);
+    padding-bottom: 7px;
+}
+/*Huvuddelen:*/
+main {
+    padding: 20px;
+}
+
+section {
+    display: inline-block;
+    vertical-align: top; 
+    margin: 27px;
+    width: 30%;
+    border: 2px solid;
+    text-align: left;
+}
+
+#html5 {
+    border-color: red;
+}
+
+#html5 h2 {
+    display: inline-block;
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold; 
+    color: rgb(253, 250, 250);
+    background-color: red;
+    padding-inline: 5px;
+    padding-block: 5px;
+}
+
+#html5 h2 a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+#css3 {
+    border-color: green;
+}
+
+#css3 h2 {
+    display: inline-block;
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold; 
+    color: rgb(253, 250, 250);
+    background-color: green;
+    padding-right: 50px;
+    padding-left: 5px;
+    padding-block: 5px;
+}
+
+#about {
+    border-color: blue;
+}
+
+#about h2 {
+    display: inline-block;
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold; 
+    color: rgb(253, 250, 250);
+    background-color: blue;
+    padding-inline: 5px;
+    padding-block: 5px;
+}
+section p {
+    font-size: 15px;
+    margin-block: 0px;
+    margin-inline: 10px;
+}
+
+section a {
+    margin-top: 10px;
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    border-top-left-radius: 6px;
+    float: inline-end;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+/*Footer:n*/
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+address {
+    float: left;
+    margin: 0;
+}
+
+footer nav {
+    float: right;
+    margin-right: 10px;
+}
+
+footer nav ul {
+    margin-block-start: 50px;
+    font-weight: bolder;
+    color: red;
+    list-style-type: none;
+}
+
+footer nav li {
+    font-weight: bold;
+}
+
+footer nav a {
+    color: white; 
+    padding: 10px 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer .active {    
+    padding-inline: 10px;
+    color: red;
+    list-style-type: disc;
+}
+
+footer nav a:hover {
+    color: red;
+    padding-bottom: 7px;
+}
+
+footer h2 {
+    margin-block: 0;
+    float: right;
+    margin-left: 50px;
+}
+/*Tabellen*/
+article {
+    width: 35%;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid;
+    border-collapse: collapse; 
+}
+
+table #rubriker {
+    font-weight: bold;
+}
+
+table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+table tr:nth-child(odd) {
+    background-color: #9494943e;
+}
+/*OM-sidan*/
+.om img {
+    height: 500px;
+    width: 15%;
+    margin: 20px;
+}
+
+.om div h2 {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+.om div p{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 100px;
+    margin-left: -220px;
+    width: 600px;
+}
+
+#fakta {
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#fakta p {
+    margin: 0 0 10px 4%;
+    font-size: 20px;
+}

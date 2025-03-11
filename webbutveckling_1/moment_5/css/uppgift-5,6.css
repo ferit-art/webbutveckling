@@ -1,0 +1,22 @@
+ul#thumbs{
+    padding: 0;
+ }
+ ul#thumbs li{
+    list-style-type: none;
+    display: inline-block;
+    border: 2px solid grey;
+ }
+  
+ ul#thumbs li img{
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; 
+ }
+  
+ #largeImg{
+    border: 10px solid grey;
+    width: 500px;
+    height: 500px;
+    object-fit: cover; 
+}
+
