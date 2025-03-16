@@ -10,8 +10,15 @@ function init() {
 
 function submit(e) {
     const node = document.createElement("li");
+    const erase = document.createElement("button");
+    erase.innerText = "Delete";
     node.innerText = e;
 
+    node.appendChild(erase);
     document.getElementById("myList").appendChild(node);
+
+    erase.onclick = function() {
+        myList.removeChild(node);
+    }
 }
 window.onload = init;
