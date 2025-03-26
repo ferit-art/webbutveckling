@@ -14,7 +14,7 @@ function init() {
                 text.style.fontSize = "20px"; // Changes the font size of the text to Stor  
                 break;
             default:
-                text.style.fontSize = "16px"; // Changes the font size of the text to Normal if nothing is selected
+                text.style.fontSize = "12px"; // Changes the font size of the text to Normal if nothing is selected
         }
     };
 }

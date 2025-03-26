@@ -1,11 +1,8 @@
 function init() {
     let paragraphs = document.getElementsByTagName('p');
-    let buttons = document.getElementsByTagName('button');
+    let button = document.getElementsByTagName('button')[0];
 
-    for (let index = 0; index < buttons.length; index++) {
-        let element = buttons[index];
-        element.onclick = click2;    
-    }
+    button.onclick = click2;
 
     for (let index = 0; index < paragraphs.length; index++) {
         let element = paragraphs[index];
